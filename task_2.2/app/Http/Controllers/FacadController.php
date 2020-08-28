@@ -3,12 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Facades\Facad;
+use App\Facades\ConfigFacad;
 
 class FacadController extends Controller
 {
     public function index(): void
     {
-        Facad::showInfo();
+        ConfigFacad::showInfo();
     }
 }
